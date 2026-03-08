@@ -2,7 +2,7 @@
 // Description: JavaFX Application Setup entry point
 
 /*
- *	io.github.msobkow.CFInt
+ *	server.markhome.mcf.CFInt
  *
  *	Copyright (c) 2016-2026 Mark Stephen Sobkow
  *	
@@ -33,7 +33,7 @@
  *	
  */
 
-package io.github.msobkow.v3_1.cfint.cfintappsetup.fx;
+package server.markhome.mcf.v3_1.cfint.cfintappsetup.fx;
 
 import java.lang.reflect.*;
 import java.io.File;
@@ -66,22 +66,22 @@ import javafx.scene.Scene;
 import javafx.scene.layout.Region;
 import javafx.stage.Stage;
 
-import io.github.msobkow.v3_1.cfsec.cfsecappsetup.CFSecAppSetup;
+import server.markhome.mcf.v3_1.cfsec.cfsecappsetup.CFSecAppSetup;
 
-import io.github.msobkow.v3_1.cflib.*;
-import io.github.msobkow.v3_1.cflib.inz.Inz;
-import io.github.msobkow.v3_1.cflib.inz.InzPathEntry;
-import io.github.msobkow.v3_1.cflib.dbutil.*;
-import io.github.msobkow.v3_1.cfsec.cfsec.*;
-import io.github.msobkow.v3_1.cfint.cfint.*;
-import io.github.msobkow.v3_1.cfsec.cfsec.buff.*;
-import io.github.msobkow.v3_1.cfint.cfint.buff.*;
-import io.github.msobkow.v3_1.cfint.cfintappsetup.CFIntAppSetup;
+import server.markhome.mcf.v3_1.cflib.*;
+import server.markhome.mcf.v3_1.cflib.inz.Inz;
+import server.markhome.mcf.v3_1.cflib.inz.InzPathEntry;
+import server.markhome.mcf.v3_1.cflib.dbutil.*;
+import server.markhome.mcf.v3_1.cfsec.cfsec.*;
+import server.markhome.mcf.v3_1.cfint.cfint.*;
+import server.markhome.mcf.v3_1.cfsec.cfsec.buff.*;
+import server.markhome.mcf.v3_1.cfint.cfint.buff.*;
+import server.markhome.mcf.v3_1.cfint.cfintappsetup.CFIntAppSetup;
 
 @Component
 public class CFIntAppSetupFxApplication extends Application {
 
-	public static final org.slf4j.Logger logger = org.slf4j.LoggerFactory.getLogger(io.github.msobkow.v3_1.cfint.cfintappsetup.CFIntAppSetup.class.getName());
+	public static final org.slf4j.Logger logger = org.slf4j.LoggerFactory.getLogger(server.markhome.mcf.v3_1.cfint.cfintappsetup.CFIntAppSetup.class.getName());
 
 	public static String INIT_LOG_MESSAGE1 = "The CFIntAppSetupFxApplication init method is called";
 
